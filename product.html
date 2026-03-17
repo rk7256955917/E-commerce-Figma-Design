@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show All Products</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h3>LUXE</h3>
+
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <div>
+          <i class="bi bi-search"></i>
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-cart"></i>
+          <i class="bi bi-person"></i>
+        </div>
+      </header>
+
+      <section class="shop-header">
+        <h2>Shop All Products</h2>
+
+        <div class="breadcrumb">
+          <a href="#">Home</a> /
+          <span>Shop</span>
+        </div>
+      </section>
+
+      <div class="shop-filter">
+        <div class="product-count">Showing 12 products</div>
+        <div class="sort">
+          <select>
+            <option>Most Popular</option>
+            <option>Newest</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+      <div class="shop-layout">
+        <!-- Sidebar Filters -->
+        <div class="filters">
+          <h3>Filters</h3>
+
+          <h4>Category</h4>
+          <label><input type="checkbox" /> Men</label>
+          <label><input type="checkbox" /> Women</label>
+          <label><input type="checkbox" /> Kids</label>
+          <label><input type="checkbox" /> Accessories</label>
+
+          <h4>Price Range</h4>
+          <div class="price">
+            <span>$0</span>
+            <input type="range" />
+            <span>$300</span>
+          </div>
+
+          <h4>Size</h4>
+          <div class="size">
+            <button>XS</button>
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+            <button>XXL</button>
+          </div>
+
+          <h4>Color</h4>
+          <div class="color">
+            <span class="c1"></span>
+            <span class="c2"></span>
+            <span class="c3"></span>
+            <span class="c4"></span>
+          </div>
+
+          <button class="clear">Clear All Filters</button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-card">
+            <img src="./denim jeans.png" alt="" />
+            <h3>Classic White T-Shirt</h3>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <span>(4.8)</span>
+            </div>
+            <p>$29.99</p>
+            <button>View Details</button>
+          </div>
+
+          <div class="product-card">
+            <img src="./Background.png" alt="" />
+            <h3>Leather Jacket Premium</h3>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <span>(4.9)</span>
+            </div>
+            <p>$199.99</p>
+
+            <button>View Details</button>
+          </div>
+
+          <div class="product-card">
+            <img src="./Background (4).png" alt="" />
+            <h3>Beige Knit Sweater</h3>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <span>(4.9)</span>
+            </div>
+            <p>$199.99</p>
+
+            <button>View Details</button>
+          </div>
+          <div class="product-container">
+            <div class="product-card">
+              <img src="./Background (2).png" alt="" />
+              <h3>Classic White T-Shirt</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <p>$29.99</p>
+              <button>View Details</button>
+            </div>
+
+            <div class="product-card">
+              <img src="./Classic White T-Shirt.png" alt="" />
+              <h3>Leather Jacket Premium</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <p>$199.99</p>
+
+              <button>View Details</button>
+            </div>
+
+            <div class="product-card">
+              <img src="./Container (1).png" alt="" />
+              <h3>Beige Knit Sweater</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <p>$199.99</p>
+
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <div class="product-card">
+              <img src="./Background (2).png" alt="" />
+              <h3>Classic White T-Shirt</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <p>$29.99</p>
+              <button>View Details</button>
+            </div>
+
+            <div class="product-card">
+              <img src="./Classic White T-Shirt.png" alt="" />
+              <h3>Leather Jacket Premium</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <p>$199.99</p>
+
+              <button>View Details</button>
+            </div>
+
+            <div class="product-card">
+              <img src="./Container (1).png" alt="" />
+              <h3>Beige Knit Sweater</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <p>$199.99</p>
+
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="product-container">
+            <div class="product-card">
+              <img src="./Background (2).png" alt="" />
+              <h3>Classic White T-Shirt</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.8)</span>
+              </div>
+              <p>$29.99</p>
+              <button>View Details</button>
+            </div>
+
+            <div class="product-card">
+              <img src="./Classic White T-Shirt.png" alt="" />
+              <h3>Leather Jacket Premium</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <p>$199.99</p>
+
+              <button>View Details</button>
+            </div>
+
+            <div class="product-card">
+              <img src="./Container (2).png" alt="" />
+              <h3>Beige Knit Sweater</h3>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span>(4.9)</span>
+              </div>
+              <p>$199.99</p>
+
+              <button>View Details</button>
+            </div>
+          </div>
+
+          <div class="pagination">
+            <button class="prev">Previous</button>
+
+            <span class="page active">1</span>
+            <span class="page">2</span>
+            <span class="page">3</span>
+            <span class="page">4</span>
+
+            <button class="next">Next</button>
+          </div>
+
+          <section class="features">
+            <h2>Why Choose Us</h2>
+
+            <div class="feature-container">
+              <div class="feature-card">
+                <i class="bi bi-gem"></i>
+                <h3>Premium Quality</h3>
+                <p>
+                  Carefully selected materials and exceptional craftsmanship
+                </p>
+              </div>
+
+              <div class="feature-card">
+                <i class="bi bi-truck"></i>
+                <h3>Free Delivery</h3>
+                <p>Free shipping on all orders over $100</p>
+              </div>
+
+              <div class="feature-card">
+                <i class="bi bi-arrow-repeat"></i>
+                <h3>Easy Returns</h3>
+                <p>30-day hassle-free return policy</p>
+              </div>
+
+              <div class="feature-card">
+                <i class="bi bi-shield-check"></i>
+                <h3>Secure Payment</h3>
+                <p>100% secure payment processing</p>
+              </div>
+            </div>
+          </section>
+
+          <footer class="footer">
+            <div class="footer-container">
+              <div class="footer-about">
+                <h2>LUXE</h2>
+
+                <p>
+                  Premium fashion for everyday confidence. Discover timeless
+                  style with our curated collection of high-quality clothing and
+                  accessories.
+                </p>
+              </div>
+
+              <div class="footer-links">
+                <h3>Quick Links</h3>
+                <p>About Us</p>
+                <p>Shop</p>
+                <p>Collections</p>
+                <p>Blog</p>
+              </div>
+
+              <div class="footer-support">
+                <h3>Customer Support</h3>
+                <p>Contact</p>
+                <p>Shipping & Delivery</p>
+                <p>Returns & Exchanges</p>
+                <p>FAQs</p>
+                <p>Size Guide</p>
+              </div>
+
+              <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+
+                <p>Subscribe to get special offers and updates.</p>
+
+                <input type="email" placeholder="Your email" />
+                <button>Join</button>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>
+                © 2026 LUXE. All rights reserved. | Privacy Policy | Terms of
+                Service
+              </p>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+second project
