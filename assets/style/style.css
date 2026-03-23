@@ -53,6 +53,10 @@ body{
 .menuicon{
     display: none;
 }
+#menu-toggle{
+    display:none;
+}
+
 
 
 /* page header */
@@ -482,7 +486,7 @@ margin-bottom: 10px;
 .pictures-card h4{
     font-size: 20px;
     font-weight: bold;
-    margin: 10px;
+    margin: 10px 0px;
 
 }
 
@@ -507,7 +511,7 @@ margin-bottom: 10px;
     background-color: black;
     color:white;
     font-size: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .nextpage{
@@ -939,11 +943,37 @@ background-repeat: no-repeat;
 @media(max-width:770px){
   
 
-    .menuicon{
-        display: block;
+   .menuicon{
+        display:block;
+        font-size:22px;
+        cursor:pointer;
     }
+
     .icons{
-        display: none;
+        display:none;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:70px;
+        left:0;
+        width:100%;
+        background:white;
+        flex-direction:column;
+        align-items:center;
+        display:none;
+        padding:20px 0;
+        box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-links a{
+        margin:12px 0;
+        font-size:18px;
+    }
+
+    /* Toggle logic */
+    #menu-toggle:checked ~ .nav-links{
+        display:flex;
     }
 
     .hero{
